@@ -1,27 +1,24 @@
 {
-  "jobs": {
-    "job0": {
+  "jobs":[ {
       "label": "Job One",
       "status": "active",
       "last_run": "2018-01-03 14:25:00",
       "error_status": " ",
       "state": " "
 
-    },
-    "job1": {
+    }, {
       "label": "Job Two",
       "status": "ready to run",
       "last_run": "2018-01-03 14:25:00",
       "error_status": "",
       "state": ""
 
-    },
-    "job2": {
+    }, {
       "label": "Job Three",
       "status": "active",
       "last_run": "2018-01-03 14:25:00",
       "error_status": "",
       "state": ""
     }
-  }
+]
 }
