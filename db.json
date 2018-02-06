@@ -1,26 +1,27 @@
 {
-	"posts": [{
-			"id": 1,
-			"title": "hello"
-		},
-		{
-			"id": 2,
-			"title": "goodbye"
-		},
-    {
-			"id": 3,
-			"title": "whats up?"
-		},
-    {
-			"id": 4,
-			"title": "how are you?"
-		},
-    {
-			"id": 5,
-			"title": "ok"
-		}
-	],
-	"profile": {
-		"name": "helanan"
+  "jobs": {
+    "job0": {
+      "label": "Job One",
+      "status": "active",
+      "last_run": "2018-01-03 14:25:00",
+      "error_status": " ",
+      "state": " "
+
+    },
+    "job1": {
+      "label": "Job Two",
+      "status": "ready to run",
+      "last_run": "2018-01-03 14:25:00",
+      "error_status": "",
+      "state": ""
+
+    },
+    "job2": {
+      "label": "Job Three",
+      "status": "active",
+      "last_run": "2018-01-03 14:25:00",
+      "error_status": "",
+      "state": ""
+    }
   }
 }
