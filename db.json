@@ -1,24 +1,45 @@
-{
-  "jobs":[ {
-      "label": "Job One",
-      "status": "active",
-      "last_run": "2018-01-03 14:25:00",
-      "error_status": " ",
-      "state": " "
-
-    }, {
-      "label": "Job Two",
-      "status": "ready to run",
-      "last_run": "2018-01-03 14:25:00",
-      "error_status": "",
-      "state": ""
-
-    }, {
-      "label": "Job Three",
-      "status": "active",
-      "last_run": "2018-01-03 14:25:00",
-      "error_status": "",
-      "state": ""
-    }
+[{
+		"job_name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+		"job_details": [{
+			"label": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+			"description": "This job does things to the thing",
+			"active": "Y",
+			"job": " ",
+			"project": "IVR",
+			"branch": "trunk",
+			"name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+			"version": "latest",
+			"context": "DEV",
+			"apply_context_to_children": "Y",
+			"regenerate_job_on_change": "Y",
+			"log4j_Level": "Off",
+			"execution_server": "ETL DEV",
+			"statistic": "enabled",
+			"on_unavailable_jobserver": "Wait",
+			"timeouts": " ",
+			"pause_trigger_on_error": " "
+		}]
+	},
+	{
+		"job_name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+		"job_details": [{
+			"label": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+			"description": "This job does things to the thing",
+			"active": "Y",
+			"job": " ",
+			"project": "IVR",
+			"branch": "trunk",
+			"name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+			"version": "latest",
+			"context": "DEV",
+			"apply_context_to_children": "Y",
+			"regenerate_job_on_change": "Y",
+			"log4j_Level": "Off",
+			"execution_server": "ETL DEV",
+			"statistic": "enabled",
+			"on_unavailable_jobserver": "Wait",
+			"timeouts": " ",
+			"pause_trigger_on_error": " "
+		}]
+	}
 ]
-}
