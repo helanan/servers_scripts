@@ -1,4 +1,4 @@
-[{
+{
 		"job_name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
 		"job_details": [{
 			"label": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
@@ -42,4 +42,4 @@
 			"pause_trigger_on_error": " "
 		}]
 	}
-]
+
