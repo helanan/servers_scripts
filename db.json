@@ -1,50 +1,51 @@
 {
-	"jobs": {
+	"jobName": [{
+		"id": 0,
+		"label": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+		"active": "Yes"
+	}, {
+		"id": 1,
+		"label": "EDW_VENDOR_RECEIPTS",
+		"active": "N"
+	}, {
+		"id": 2,
+		"label": "DC_INTRANSIT_REPORT",
+		"active": "Y"
+	}],
 
-		"job0": {
-			"job_name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
-			"job_details": [{
-				"label": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
-				"description": "This job does things to the thing",
-				"active": "Y",
-				"job": " ",
-				"project": "IVR",
-				"branch": "trunk",
-				"name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
-				"version": "latest",
-				"context": "DEV",
-				"apply_context_to_children": "Y",
-				"regenerate_job_on_change": "Y",
-				"log4j_Level": "Off",
-				"execution_server": "ETL DEV",
-				"statistic": "enabled",
-				"on_unavailable_jobserver": "Wait",
-				"timeouts": " ",
-				"pause_trigger_on_error": " "
-			}]
-		},
-
-		"job1": {
-			"job_name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
-			"job_details": [{
-				"label": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
-				"description": "This job does things to the thing",
-				"active": "Y",
-				"job": " ",
-				"project": "IVR",
-				"branch": "trunk",
-				"name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
-				"version": "latest",
-				"context": "DEV",
-				"apply_context_to_children": "Y",
-				"regenerate_job_on_change": "Y",
-				"log4j_Level": "Off",
-				"execution_server": "ETL DEV",
-				"statistic": "enabled",
-				"on_unavailable_jobserver": "Wait",
-				"timeouts": " ",
-				"pause_trigger_on_error": " "
-			}]
-		}
-	}
+	"jobDetails": [{
+		"id": 0,
+		"description": "This job does things to the thing",
+		"job": " ",
+		"project": "IVR",
+		"branch": "trunk",
+		"name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+		"version": "latest",
+		"context": "DEV",
+		"apply_context_to_children": "Y",
+		"regenerate_job_on_change": "Y",
+		"log4j_Level": "Off",
+		"execution_server": "ETL DEV",
+		"statistic": "enabled",
+		"on_unavailable_jobserver": "Wait",
+		"timeouts": " ",
+		"pause_trigger_on_error": " "
+	}, {
+		"id": 1,
+		"description": "This job is super cooool",
+		"job": " ",
+		"project": "IVR",
+		"branch": "trunk",
+		"name": "EDW_CALL_CENTER_LOAD_WRK_TABLES",
+		"version": "latest",
+		"context": "DEV",
+		"apply_context_to_children": "Y",
+		"regenerate_job_on_change": "Y",
+		"log4j_Level": "Off",
+		"execution_server": "ETL DEV",
+		"statistic": "enabled",
+		"on_unavailable_jobserver": "Wait",
+		"timeouts": " ",
+		"pause_trigger_on_error": " "
+	}]
 }
