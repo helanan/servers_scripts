@@ -47,5 +47,19 @@
 		"on_unavailable_jobserver": "Wait",
 		"timeouts": " ",
 		"pause_trigger_on_error": " "
-	}]
+	}],
+	
+	"users": {[
+		  "login": "hnosratbakhsh@TractorSupply.com",
+		  "role" : "Administrator/Viewer/Operation Manager/Designer",
+		  "last_name" : "Nosratbakhsh",
+		  "first_name" : "Helana",
+		  "type_user" : "fas fa-user-secret",
+		  "active_user" "fas fa-check-circle",
+		  "logged_in": "fas fa-paint-brush",
+		  "joined" : "2017-09-12 14:49:21",
+		  "svn_login" : "hnosratbakhsh"
+		  "edit" : "false",
+		  "delete" : "false"
+		  ]}
 }
