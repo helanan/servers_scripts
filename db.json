@@ -49,7 +49,8 @@
 		"pause_trigger_on_error": " "
 	}],
 	
-	"users": {[
+	"users": [
+		{
 		  "login": "hnosratbakhsh@TractorSupply.com",
 		  "role" : "Administrator/Viewer/Operation Manager/Designer",
 		  "last_name" : "Nosratbakhsh",
@@ -61,5 +62,5 @@
 		  "svn_login" : "hnosratbakhsh"
 		  "edit" : "false",
 		  "delete" : "false"
-		  ]}
+		  }]
 }
